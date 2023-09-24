@@ -247,8 +247,16 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
     <li>Inside the osTicket folder, open the “include” folder.</li>
   </ul>
   <ul>
-    <li>Find the file named “ost-sampleconfig.php.” Rename this file to “ost-config.php.”</li>
+    <li>Find the file named “ost-sampleconfig.php.” </li>
   </ul>
+    <br>
+    <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/dfc0ca0c-c3e1-46b4-aa94-22174a050c9b"/>
+  </br>
+
+   <ul> <li> Rename this file to “ost-config.php.”</li></ul>
+  </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/eb9ce670-86c7-4ece-83ea-c63c9fec778e"/>
+
   <ul>
     <li>Next, we need to modify this configuration file so that any user can make changes:
       <ul>
@@ -263,9 +271,13 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
       <ul>
         <li>When prompted, select “Remove all inherited permissions from this object.”</li>
       </ul>
+      <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/af1c49a5-e941-4e20-960e-37e809eb777e"/>
       <ul>
         <li>Select a principal, then enter “Everyone” under “object name.” Click OK.</li>
       </ul>
+      <br>
+      <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/a856d442-a428-4442-9af4-5b9835ddc2b7"/>
+  </br>
       <ul>
         <li>Under “Basic Permissions,” select the following fields:
           <ul>
@@ -290,6 +302,8 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
       </ul>
     </li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/063b3b12-cae4-4d76-b59a-c427eb75bf47"/>
+
   <h3>13. Use osTicket installer to create admin accounts</h3>
   <ul>
     <li>Back in your browser, your osTicket installer page should still be open.
@@ -306,7 +320,7 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   </ul>
   <h3>14. Install <a href="https://www.heidisql.com/">HeidiSQL</a> and initiate a new session</h3>
   <ul>
-    <li>To finalize our osTicket installation, we need to connect to our mySQL database. To do this we’ll use Heidi, a []. Important: keep the browser with the osTicket installer open during these next steps!</li>
+    <li>To finalize our osTicket installation, we need to connect to our mySQL database. To do this we’ll use HeidiSQL. Important: keep the browser with the osTicket installer open during these next steps!</li>
   </ul>
   <ul>
     <li>Download and open HeidiSQL.</li>
@@ -317,9 +331,13 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>Enter the password you created during your mySQL setup.</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/46951cde-1933-4488-a60f-7c1ea94d36aa/"/>
+
   <ul>
     <li>Once a session has been initiated, create a new database named “osTicket.”</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/6b362593-7782-4000-a84d-68dc190285e6"/>
+
   <h3>15. Set up database</h3>
   <ul>
     <li>Back in the osTicket installer, scroll down to Database Settings.</li>
@@ -330,6 +348,8 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>Enter the username and password for your mySQL database.</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/6cb193b3-f4b8-44a1-9805-33076681457e"/>
+
   <ul>
     <li>Click “Install Now.”</li>
   </ul>
@@ -337,10 +357,10 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>To check to see if osTicket has been installed correctly, navigate to the following pages:
       <ul>
-        <li>Admin and Agent Panel:</li>
+        <li>Admin and Agent Panel: http://localhost/osTicket/scp/login.php </li>
       </ul>
       <ul>
-        <li>End User Ticket Portal:</li>
+        <li>End User Ticket Portal: http://localhost/osTicket/ </li>
       </ul>
     </li>
   </ul>
