@@ -48,6 +48,8 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>Name your new VM “osTicket-VM.”</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/712ad8d5-5257-4f2b-9d99-85842bfa63bb"/>
+
   <ul>
     <li>Image and Size Selections
       <ul>
@@ -64,6 +66,9 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>Select the Networking tab. Confirm that a new virtual network, or VNet, is being created along with the VM.</li>
   </ul>
+<img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/7d67ba6d-083a-4095-8795-9330d46acbcb"/>
+
+
   <ul>
     <li>Click “Confirm and Create.”*</li>
   </ul>
@@ -74,6 +79,8 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>While in your resource group, click on your VM-osTicket virtual machine and copy the public IP address displayed.</li>
   </ul>
+ <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/b169b202-c96f-4967-81f2-0417a153b535"/>
+
   <ul>
     <li>In your computer’s task bar, search for and open Windows Remote Desktop</li>
   </ul>
