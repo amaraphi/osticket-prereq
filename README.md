@@ -114,6 +114,8 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
       </ul>
     </li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/3c1c8fb9-05e8-480f-99a6-506f80c835d9"/>
+
   <ul>
     <li>
       <strong>To check to confirm that the IIS server has been enabled:</strong>
@@ -126,14 +128,16 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
       <ul>
         <li>You should see the IIS homepage.</li>
       </ul>
-    </li>
-  </ul>
+     <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/84c52ab5-a1a8-4ab2-bd39-7fbc382e2093"/>
+
   <h3>3. Install <a href="https://www.bing.com/ck/a?!&amp;&amp;p=b9535742e0beff47JmltdHM9MTY5NTQyNzIwMCZpZ3VpZD0wNGQ0ODZiMC03MTM3LTZiOTQtMTM3Ni05NDE2NzA4MDZhNGImaW5zaWQ9NTIwOQ&amp;ptn=3&amp;hsh=3&amp;fclid=04d486b0-7137-6b94-1376-941670806a4b&amp;psq=php+manager+for+iis&amp;u=a1aHR0cHM6Ly93d3cuaWlzLm5ldC9kb3dubG9hZHMvY29tbXVuaXR5LzIwMTgvMDUvcGhwLW1hbmFnZXItMTUwLWZvci1paXMtMTA&amp;ntb=1">PHP Manager for IIS</a></h3>
   <h3>4. Install the <a href="https://www.bing.com/ck/a?!&amp;&amp;p=4bea11af739c82f3JmltdHM9MTY5NTQyNzIwMCZpZ3VpZD0wNGQ0ODZiMC03MTM3LTZiOTQtMTM3Ni05NDE2NzA4MDZhNGImaW5zaWQ9NTIwNw&amp;ptn=3&amp;hsh=3&amp;fclid=04d486b0-7137-6b94-1376-941670806a4b&amp;psq=rewrite+module+download&amp;u=a1aHR0cHM6Ly93d3cuaWlzLm5ldC9kb3dubG9hZHMvbWljcm9zb2Z0L3VybC1yZXdyaXRl&amp;ntb=1">URL Rewrite Module</a></h3>
   <h3>5. Create a PHP directory in your VM’s C: drive</h3>
   <ul>
     <li>Navigate to your VM’s C: drive and create a new folder named “PHP.”</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/9f48c0e8-0911-4035-bb80-9312c0560002"/>
+
   <h3>6. Install <a href="https://prototype.php.net/versions/7.3.8/">PHP 7.3.8</a> and unzip the contents into C:\PHP</h3>
   <ul>
     <li>After installing PHP, copy or extract all of the file contents into your new PHP directory.</li>
@@ -159,6 +163,8 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>Important: create a password for the root directory that will be used to access our database.</li>
   </ul>
+ <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/6a8b30e6-a3a8-42b1-a4b3-afd19779cd12"/>
+
   <h3>9. Register PHP in IIS</h3>
   <ul>
     <li>Use your VM’s taskbar to search for IIS. Right click and select “Run as administrator.”</li>
@@ -166,9 +172,13 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>Click on the PHP manager and select “Register new PHP version.”</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/096d705c-8a86-4e35-a89b-40a424fc5ab9"/>
+
   <ul>
-    <li>Navigate to your VM’s C:\PHP directory and select &lt;code&gt;php-cgi.exe&lt;/code&gt;. Click “OK.”</li>
+    <li>Navigate to your VM’s C:\PHP directory and select <code>php-cgi.exe</code>.Click “OK.”</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/052cd3fd-e2a2-424e-98b5-2a3686598ca0"/>
+
   <ul>
     <li>After PHP has been registered, reload IIS within the management console.</li>
   </ul>
@@ -179,9 +189,13 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
   <ul>
     <li>Copy or extract the “upload” folder to c:\inetpub\wwwroot</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/ed1a3cd9-bb26-4960-9d03-c45cb5323076"/>
+
   <ul>
     <li>While in the wwwroot folder, rename “upload” to “osTicket.”</li>
   </ul>
+  <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/296fa6f9-dcbd-45ee-ae42-7cf3edcbb695"/>
+
   <ul>
     <li>Return to the IIS management console and reload IIS.</li>
   </ul>
@@ -192,9 +206,12 @@ In this tutorial we’ll outline the prerequisites and installation for osTicket
         <li>In the IIS management console, navigate to sites—&gt;Default—&gt; osTicket</li>
       </ul>
       <ul>
-        <li>Click “Browse *.80.” This should open the osTicket installer in your browser.</li>
-      </ul>
+        <li>Click “Browse *.80.”</li>
+        <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/e1444596-13e6-4c18-a21a-be09216ecb69"/>
+        <li></li>This should open the osTicket installer in your browser.</li>
+      </ul>=
     </li>
+    <img src="https://github.com/amaraphi/osticket-prereq/assets/144752187/bb669a32-76ad-43be-8306-b27e255773fa"/>
   </ul>
   <h3>11. Enable PHP extensions</h3>
   <ul>
